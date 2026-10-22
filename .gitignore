@@ -1,0 +1,23 @@
+# Credenciais - NUNCA commitar
+.env
+.env.*
+!.env.example
+config.php
+
+# Artefatos de execucao
+logs/
+relatorios/
+estado/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Dumps e amostras de dados reais
+dumps/
+amostras/
+*.csv
+*.sql.gz
